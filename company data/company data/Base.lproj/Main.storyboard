@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fl1-yC-2py">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="company_data" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wst-kO-Uri">
+                                <rect key="frame" x="0.0" y="-13" width="375" height="905"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klU-HN-lMr">
+                                        <rect key="frame" x="261" y="84" width="94" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="94" id="9F6-py-WcG"/>
+                                            <constraint firstAttribute="height" constant="96" id="cXF-UT-rgk"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Wipro.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5U-lc-Qe2">
+                                        <rect key="frame" x="20" y="188" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="TpZ-ri-Y9g"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="Infosys">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="8pb-wr-357" kind="push" id="IkU-pL-qHb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RA1-k5-LHe">
+                                        <rect key="frame" x="261" y="292" width="94" height="96"/>
+                                        <state key="normal" title="Button" image="Cognizant.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30P-Qw-jge">
+                                        <rect key="frame" x="20" y="292" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="gB8-tu-IxI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="Cognizant">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="B2Z-OH-sv1" kind="push" id="vYe-O4-run"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBr-g3-SOG">
+                                        <rect key="frame" x="20" y="396" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="Avv-Cd-4AW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="IBM">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Hx7-DA-7Cr" kind="push" id="p7y-or-oT9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4m-QS-fRx">
+                                        <rect key="frame" x="261" y="500" width="94" height="96"/>
+                                        <state key="normal" title="Button" image="Amazon.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxW-Xq-cPo">
+                                        <rect key="frame" x="20" y="500" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="Isi-oA-DVS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="Amazon">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="upk-hI-MLS" kind="push" id="wXb-ev-6uc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iio-b0-G2k">
+                                        <rect key="frame" x="261" y="604" width="94" height="96"/>
+                                        <state key="normal" title="Button" image="zoho.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vA-of-fBx">
+                                        <rect key="frame" x="20" y="604" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="v8O-CL-eOd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="Zoho">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Et4-Ew-xIP" kind="push" id="5eo-b6-USB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TX6-UA-lvS">
+                                        <rect key="frame" x="20" y="708" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="Or9-51-WmW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="Soliton">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BNM-SC-Gdp" kind="push" id="wL6-4d-16u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0n7-Im-XjQ">
+                                        <rect key="frame" x="261" y="708" width="94" height="96"/>
+                                        <state key="normal" title="Button" image="Soliton.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVT-rD-C04">
+                                        <rect key="frame" x="261" y="188" width="94" height="96"/>
+                                        <state key="normal" title="Button" image="Infosys.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx3-1a-e41">
+                                        <rect key="frame" x="20" y="84" width="248" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="248" id="7BJ-OU-4wf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <state key="normal" title="Wipro">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="agr-oL-QU2" kind="push" id="KjN-tS-Hf9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqe-Cj-sPq">
+                                        <rect key="frame" x="236" y="406" width="119" height="86"/>
+                                        <state key="normal" title="Button" image="IBM.png"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gxW-Xq-cPo" firstAttribute="top" secondItem="eqe-Cj-sPq" secondAttribute="bottom" constant="8" symbolic="YES" id="19X-ZU-f0S"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="wVT-rD-C04" secondAttribute="leading" id="3qL-0I-21g"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="6vA-of-fBx" secondAttribute="leading" id="4Ot-xe-TfG"/>
+                                    <constraint firstItem="6vA-of-fBx" firstAttribute="top" secondItem="gxW-Xq-cPo" secondAttribute="bottom" constant="8" symbolic="YES" id="5a9-em-iFV"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="trailing" secondItem="I4m-QS-fRx" secondAttribute="trailing" id="68x-WT-WZV"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="trailing" secondItem="Iio-b0-G2k" secondAttribute="trailing" id="6sb-6b-VGh"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="I4m-QS-fRx" secondAttribute="leading" id="7u8-nu-Eg8"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="u5U-lc-Qe2" secondAttribute="leading" id="929-lf-V2B"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="Iio-b0-G2k" secondAttribute="leading" id="DW7-Ld-qhM"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="wst-kO-Uri" secondAttribute="leading" constant="20" id="Dkk-p7-qIt"/>
+                                    <constraint firstItem="gxW-Xq-cPo" firstAttribute="top" secondItem="I4m-QS-fRx" secondAttribute="top" id="H22-FJ-LKW"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="eqe-Cj-sPq" secondAttribute="leading" constant="25" id="HdD-Xe-P4B"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="trailing" secondItem="eqe-Cj-sPq" secondAttribute="trailing" id="IfF-Np-Zb0"/>
+                                    <constraint firstItem="wVT-rD-C04" firstAttribute="top" secondItem="klU-HN-lMr" secondAttribute="bottom" constant="8" symbolic="YES" id="KAs-RC-t5q"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="gBr-g3-SOG" secondAttribute="leading" id="KSU-jd-qEb"/>
+                                    <constraint firstItem="gBr-g3-SOG" firstAttribute="top" secondItem="30P-Qw-jge" secondAttribute="bottom" constant="8" symbolic="YES" id="Kks-QJ-GFI"/>
+                                    <constraint firstItem="30P-Qw-jge" firstAttribute="top" secondItem="u5U-lc-Qe2" secondAttribute="bottom" constant="8" symbolic="YES" id="LJ2-wC-ahJ"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="trailing" secondItem="TX6-UA-lvS" secondAttribute="trailing" id="LbO-Z5-xEt"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="trailing" secondItem="gBr-g3-SOG" secondAttribute="trailing" id="Nzz-H9-uq8"/>
+                                    <constraint firstItem="6vA-of-fBx" firstAttribute="top" secondItem="Iio-b0-G2k" secondAttribute="top" id="Pst-6i-Qdd"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="trailing" secondItem="30P-Qw-jge" secondAttribute="trailing" id="UMI-3b-7BS"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="0n7-Im-XjQ" secondAttribute="leading" id="Uz6-0R-eIS"/>
+                                    <constraint firstItem="u5U-lc-Qe2" firstAttribute="top" secondItem="cx3-1a-e41" secondAttribute="bottom" constant="8" symbolic="YES" id="VLu-zI-nTh"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="trailing" secondItem="gxW-Xq-cPo" secondAttribute="trailing" id="WHV-HD-dD1"/>
+                                    <constraint firstAttribute="trailing" secondItem="klU-HN-lMr" secondAttribute="trailing" constant="20" id="WM3-t8-mBU"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="trailing" secondItem="u5U-lc-Qe2" secondAttribute="trailing" id="Y5e-NX-SAU"/>
+                                    <constraint firstItem="gxW-Xq-cPo" firstAttribute="top" secondItem="gBr-g3-SOG" secondAttribute="bottom" constant="8" symbolic="YES" id="YHL-5a-k5K"/>
+                                    <constraint firstItem="gBr-g3-SOG" firstAttribute="top" secondItem="eqe-Cj-sPq" secondAttribute="top" constant="-10" id="aZa-Ke-3OC"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="trailing" secondItem="RA1-k5-LHe" secondAttribute="trailing" id="bUQ-lZ-89t"/>
+                                    <constraint firstItem="TX6-UA-lvS" firstAttribute="top" secondItem="0n7-Im-XjQ" secondAttribute="top" id="djW-40-frL"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="RA1-k5-LHe" secondAttribute="leading" id="fuv-rj-dfA"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="gxW-Xq-cPo" secondAttribute="leading" id="gnP-S1-GFG"/>
+                                    <constraint firstItem="TX6-UA-lvS" firstAttribute="top" secondItem="6vA-of-fBx" secondAttribute="bottom" constant="8" symbolic="YES" id="hK1-vb-jNh"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="trailing" secondItem="6vA-of-fBx" secondAttribute="trailing" id="hVA-MO-iQY"/>
+                                    <constraint firstItem="TX6-UA-lvS" firstAttribute="top" secondItem="Iio-b0-G2k" secondAttribute="bottom" constant="8" symbolic="YES" id="hjK-yj-BFD"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="30P-Qw-jge" secondAttribute="leading" id="kEm-mg-Jhh"/>
+                                    <constraint firstItem="Iio-b0-G2k" firstAttribute="top" secondItem="I4m-QS-fRx" secondAttribute="bottom" constant="8" symbolic="YES" id="kNa-K3-uSw"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="leading" secondItem="TX6-UA-lvS" secondAttribute="leading" id="kn6-BO-5X3"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="trailing" secondItem="0n7-Im-XjQ" secondAttribute="trailing" id="lcU-Zk-gBq"/>
+                                    <constraint firstItem="TX6-UA-lvS" firstAttribute="bottom" secondItem="0n7-Im-XjQ" secondAttribute="bottom" id="mTx-XL-WQe"/>
+                                    <constraint firstAttribute="bottom" secondItem="TX6-UA-lvS" secondAttribute="bottom" constant="101" id="nrX-tV-pbQ"/>
+                                    <constraint firstItem="u5U-lc-Qe2" firstAttribute="top" secondItem="klU-HN-lMr" secondAttribute="bottom" constant="8" symbolic="YES" id="oTo-nv-x6T"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="leading" secondItem="wst-kO-Uri" secondAttribute="leading" constant="261" id="od1-63-efy"/>
+                                    <constraint firstItem="klU-HN-lMr" firstAttribute="trailing" secondItem="wVT-rD-C04" secondAttribute="trailing" id="rEt-d2-MJ9"/>
+                                    <constraint firstItem="30P-Qw-jge" firstAttribute="top" secondItem="RA1-k5-LHe" secondAttribute="top" id="rv3-YR-Us1"/>
+                                    <constraint firstItem="RA1-k5-LHe" firstAttribute="top" secondItem="wVT-rD-C04" secondAttribute="bottom" constant="8" symbolic="YES" id="ucn-fa-5jw"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="top" secondItem="wst-kO-Uri" secondAttribute="top" constant="84" id="y4Z-br-qtf"/>
+                                    <constraint firstItem="cx3-1a-e41" firstAttribute="top" secondItem="klU-HN-lMr" secondAttribute="top" id="ygI-1g-MhN"/>
+                                    <constraint firstItem="eqe-Cj-sPq" firstAttribute="top" secondItem="RA1-k5-LHe" secondAttribute="bottom" constant="18" id="zdh-FL-p5w"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wst-kO-Uri" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-10.5" id="E0l-VA-8ja"/>
+                            <constraint firstItem="wst-kO-Uri" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-77" id="hNZ-FA-biB"/>
+                            <constraint firstItem="wst-kO-Uri" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qag-Uj-DJS"/>
+                            <constraint firstAttribute="trailing" secondItem="wst-kO-Uri" secondAttribute="trailing" id="wm2-Wb-mGO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ai2-qB-caR"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="900"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862.5" y="411"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ynO-Rr-MrW">
+            <objects>
+                <viewController id="Et4-Ew-xIP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="21u-xo-Zl0"/>
+                        <viewControllerLayoutGuide type="bottom" id="bJk-uC-JCc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IfD-7Z-tkY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qO9-rl-3ZX">
+                                <rect key="frame" x="-9" y="95" width="407" height="1293"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Work Online&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUD-9l-b1h">
+                                        <rect key="frame" x="25" y="131" width="354" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="Deg-rL-uAL"/>
+                                            <constraint firstAttribute="height" constant="66" id="IhH-8v-60k"/>
+                                            <constraint firstAttribute="width" constant="354" id="Pdy-p3-vej"/>
+                                            <constraint firstAttribute="height" constant="66" id="YkG-0u-inu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Deg-rL-uAL"/>
+                                                <exclude reference="IhH-8v-60k"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zoho.png" translatesAutoresizingMaskIntoConstraints="NO" id="pEk-N3-mMa">
+                                        <rect key="frame" x="76" y="20" width="229" height="133"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="133" id="J3L-yz-wc5"/>
+                                            <constraint firstAttribute="height" constant="159" id="KkJ-IO-xvZ"/>
+                                            <constraint firstAttribute="width" constant="166" id="a3M-cD-hRb"/>
+                                            <constraint firstAttribute="width" constant="166" id="eM9-qw-0ji"/>
+                                            <constraint firstAttribute="height" constant="133" id="gye-2d-osG"/>
+                                            <constraint firstAttribute="height" constant="133" id="hC3-fI-BJu"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="J3L-yz-wc5"/>
+                                                <exclude reference="KkJ-IO-xvZ"/>
+                                                <exclude reference="a3M-cD-hRb"/>
+                                                <exclude reference="eM9-qw-0ji"/>
+                                                <exclude reference="gye-2d-osG"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJT-hZ-ehb">
+                                        <rect key="frame" x="29" y="1162" width="331" height="111"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="353" id="Gja-Tn-g3q"/>
+                                            <constraint firstAttribute="height" constant="133" id="afS-jK-PDq"/>
+                                            <constraint firstAttribute="height" constant="482" id="o9O-kz-OJF"/>
+                                            <constraint firstAttribute="height" constant="482" id="q1X-15-2fF"/>
+                                            <constraint firstAttribute="height" constant="417" id="rBa-6c-jpQ"/>
+                                            <constraint firstAttribute="height" constant="401" id="rjs-jt-hd2"/>
+                                            <constraint firstAttribute="height" constant="401" id="rrU-IK-hid"/>
+                                        </constraints>
+                                        <string key="text">Type				:	Private
+Founded			:	1995
+Founder			:	Sridhar Vembu
+Area served			:	Worldwide
+Key people			:	Sridhar Vembu(CEO)
+Number of employees	:	4500
+Slogan			:	Work online.
+Website			:	www.zohocorp.com</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Gja-Tn-g3q"/>
+                                                <exclude reference="afS-jK-PDq"/>
+                                                <exclude reference="o9O-kz-OJF"/>
+                                                <exclude reference="q1X-15-2fF"/>
+                                                <exclude reference="rBa-6c-jpQ"/>
+                                                <exclude reference="rjs-jt-hd2"/>
+                                                <exclude reference="rrU-IK-hid"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="60" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZyK-mr-7NN">
+                                        <rect key="frame" x="20" y="200" width="349" height="944"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="3k3-75-fsO"/>
+                                            <constraint firstAttribute="height" constant="300" id="EaI-yi-bOo"/>
+                                            <constraint firstAttribute="height" constant="300" id="j0f-Hk-zWd"/>
+                                            <constraint firstAttribute="height" constant="105" id="mK2-JX-kYg"/>
+                                            <constraint firstAttribute="height" constant="944" id="zh6-6D-y61"/>
+                                        </constraints>
+                                        <string key="text">From 1996 to 2009, the company was known
+as AdventNet Inc. In 2009, the company was
+renamed Zoho Corporation after its online office
+suite of the same name.The company is
+headquartered at its largest campus in Estancia
+IT Park in Chennai, Tamil Nadu, India. Formerly,
+it filed headquarters in Pleasanton, California,
+USA. The company also has offices in
+Singapore, Japan, China, and other cities in
+India, namely New Delhi and Tenkasi. The bulk
+of its sales and support operations are carried
+out from its office in Chennai, Tamil Nadu, India
+and the Philippines.In addition, the company
+has research and development centres in
+Singapore, Beijing, China and Tenkasi.The
+company started as a network management
+framework provider for telecommunications and
+network equipment vendors. Initially the
+company developed other software such as an
+SNMP API stack, an element management system (EMS). The NMS framework is
+marketed as WebNMS which competes with
+similar NMS products from HP, CA and few
+other enterprises.Until 2003, the company’s
+business focused only on large and enterprise
+class customers. During the slowdown in 2003,
+and as a plan to bring in more revenue, the
+company ventured into SMB market by offering
+commercial IT management products which were either stripped down versions of their
+WebNMS framework, or built on top of
+WebNMS codebase. The company marketed
+their IT management products under the
+ManageEngine branding. Their first product
+released under the ManageEngine brand was a
+network monitoring software called OpManager
+4.0 which competed with WhatsUp Gold and
+other monitoring products. Following
+OpManager 4.0's success, a host of other
+related products were developed and marketed
+targeting various segments of IT management.
+The ManageEngine became a commercially
+successful brand in the following years.During
+the Web 2.0 and SaaS boom in 2005, the
+company launched Zoho Office Suite with a
+web-based word processor, and later expanded
+to offer other applications, including
+spreadsheets, mail, a calendar, contacts list,
+and other business-oriented programs such as
+CRM.Most of the Zoho Suite products offer a
+free edition and a host of paid editions. At this
+time of writing, the Zoho Suite of products offers
+both personal productivity applications and
+business productivity apps which rely on the
+subscription business model for revenue. Some
+of the notable business competitors include
+products from Google, Microsoft, and
+Salesforce.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="3k3-75-fsO"/>
+                                                <exclude reference="EaI-yi-bOo"/>
+                                                <exclude reference="j0f-Hk-zWd"/>
+                                                <exclude reference="mK2-JX-kYg"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZyK-mr-7NN" firstAttribute="top" secondItem="YUD-9l-b1h" secondAttribute="bottom" constant="3" id="47w-vu-dlO"/>
+                                    <constraint firstItem="YUD-9l-b1h" firstAttribute="leading" secondItem="qO9-rl-3ZX" secondAttribute="leading" constant="25" id="Cx4-Oo-5SN"/>
+                                    <constraint firstAttribute="trailing" secondItem="pEk-N3-mMa" secondAttribute="trailing" constant="94" id="DHs-Ly-bvr"/>
+                                    <constraint firstItem="pEk-N3-mMa" firstAttribute="leading" secondItem="qO9-rl-3ZX" secondAttribute="leading" constant="76" id="U2y-hk-fhk"/>
+                                    <constraint firstItem="ZyK-mr-7NN" firstAttribute="top" secondItem="pEk-N3-mMa" secondAttribute="bottom" constant="47" id="V6q-UQ-Sm6"/>
+                                    <constraint firstAttribute="bottom" secondItem="MJT-hZ-ehb" secondAttribute="bottom" constant="20" id="WoX-k3-MXb"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZyK-mr-7NN" secondAttribute="trailing" constant="30" id="aim-0L-KE1"/>
+                                    <constraint firstItem="ZyK-mr-7NN" firstAttribute="leading" secondItem="qO9-rl-3ZX" secondAttribute="leading" constant="20" id="b5U-Lz-JeC"/>
+                                    <constraint firstItem="MJT-hZ-ehb" firstAttribute="leading" secondItem="qO9-rl-3ZX" secondAttribute="leading" constant="29" id="bwR-TW-1c9"/>
+                                    <constraint firstItem="ZyK-mr-7NN" firstAttribute="centerX" secondItem="MJT-hZ-ehb" secondAttribute="centerX" id="h16-kX-B3t"/>
+                                    <constraint firstAttribute="trailing" secondItem="YUD-9l-b1h" secondAttribute="trailing" constant="20" id="iUU-st-nhl"/>
+                                    <constraint firstItem="pEk-N3-mMa" firstAttribute="top" secondItem="qO9-rl-3ZX" secondAttribute="top" constant="20" id="lbA-j1-AIT"/>
+                                    <constraint firstItem="MJT-hZ-ehb" firstAttribute="top" secondItem="ZyK-mr-7NN" secondAttribute="bottom" constant="18" id="w4D-zs-L1n"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qO9-rl-3ZX" firstAttribute="leading" secondItem="IfD-7Z-tkY" secondAttribute="leadingMargin" constant="-25" id="1nR-Dn-eQi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qO9-rl-3ZX" secondAttribute="trailing" constant="-39" id="7tJ-ZN-kwr"/>
+                            <constraint firstItem="qO9-rl-3ZX" firstAttribute="top" secondItem="21u-xo-Zl0" secondAttribute="bottom" constant="31" id="SR4-Kg-KLh"/>
+                            <constraint firstItem="bJk-uC-JCc" firstAttribute="top" secondItem="qO9-rl-3ZX" secondAttribute="bottom" constant="12" id="Yc8-C4-2Ml"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eDQ-eB-1YD"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8x9-I9-cF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1915.5" y="661"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1le-6Y-x6a">
+            <objects>
+                <viewController id="BNM-SC-Gdp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yIn-sa-dZP"/>
+                        <viewControllerLayoutGuide type="bottom" id="WQG-dm-ud0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uE3-V9-OSp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TLZ-aN-qSU">
+                                <rect key="frame" x="-19" y="69" width="408" height="1079"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soliton.png" translatesAutoresizingMaskIntoConstraints="NO" id="pjj-Cg-gEK">
+                                        <rect key="frame" x="98" y="20" width="229" height="133"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="166" id="1I4-SQ-o7Q"/>
+                                            <constraint firstAttribute="width" constant="229" id="4Ck-OR-M1e"/>
+                                            <constraint firstAttribute="width" constant="166" id="L8I-63-cKk"/>
+                                            <constraint firstAttribute="height" constant="133" id="aki-ZR-gdx"/>
+                                            <constraint firstAttribute="height" constant="159" id="hfX-0M-4cA"/>
+                                            <constraint firstAttribute="height" constant="133" id="pgx-IL-Tbs"/>
+                                            <constraint firstAttribute="height" constant="133" id="reB-k9-qea"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="1I4-SQ-o7Q"/>
+                                                <exclude reference="L8I-63-cKk"/>
+                                                <exclude reference="aki-ZR-gdx"/>
+                                                <exclude reference="hfX-0M-4cA"/>
+                                                <exclude reference="reB-k9-qea"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snc-KO-jSK">
+                                        <rect key="frame" x="35" y="931" width="384" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="3jF-Jp-gAN"/>
+                                            <constraint firstAttribute="width" secondItem="Snc-KO-jSK" secondAttribute="height" multiplier="3:1" id="59N-mq-jhK"/>
+                                            <constraint firstAttribute="width" constant="353" id="9mr-JY-C4G"/>
+                                            <constraint firstAttribute="width" constant="384" id="B4P-Nm-fGh"/>
+                                            <constraint firstAttribute="height" constant="417" id="VWN-UB-AMB"/>
+                                            <constraint firstAttribute="height" constant="128" id="iUd-ZA-nxt"/>
+                                            <constraint firstAttribute="height" constant="401" id="lyM-JH-ADN"/>
+                                            <constraint firstAttribute="height" constant="482" id="m9S-YQ-gCk"/>
+                                            <constraint firstAttribute="height" constant="482" id="mYt-gL-wrF"/>
+                                        </constraints>
+                                        <string key="text">Type			:	Privately Held
+Industry		:	Semiconductor, Machine Vision,
+				Embedded Systems
+Founded		:	1998
+Founder		:	Dr Ganesh Devaraj
+Headquarters	:	Bengaluru, India
+Products		:	Neo smart camera
+Website		:	http://www.solitontech.com/</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="59N-mq-jhK"/>
+                                                <exclude reference="9mr-JY-C4G"/>
+                                                <exclude reference="VWN-UB-AMB"/>
+                                                <exclude reference="iUd-ZA-nxt"/>
+                                                <exclude reference="lyM-JH-ADN"/>
+                                                <exclude reference="m9S-YQ-gCk"/>
+                                                <exclude reference="mYt-gL-wrF"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8o-HU-9Hu">
+                                        <rect key="frame" x="20" y="208" width="376" height="726"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="5br-c9-CIc"/>
+                                            <constraint firstAttribute="width" constant="350" id="7XE-qv-Lcl"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="726" id="EmA-E5-WLd"/>
+                                            <constraint firstAttribute="height" constant="726" id="NOF-Vd-yby"/>
+                                            <constraint firstAttribute="width" constant="376" id="ZS2-Za-84W"/>
+                                            <constraint firstAttribute="height" constant="300" id="lO4-Uq-gKk"/>
+                                            <constraint firstAttribute="height" constant="105" id="ucs-BL-0ek"/>
+                                            <constraint firstAttribute="width" secondItem="M8o-HU-9Hu" secondAttribute="height" multiplier="188:363" id="wgS-Ep-O4V"/>
+                                        </constraints>
+                                        <string key="text">Soliton is an Indian technology company that 
+offers research, development and consulting services 
+in the areas of Test &amp; Measurement automation,
+ Machine Vision, and Embedded Systems. 
+It is India's first and largest manufacturer of smart cameras 
+and machine vision components. It was founded in 1998 
+by Dr Ganesh Devaraj and is headquartered in the city 
+of Bengaluru. It has its other office locations in
+ Coimbatore, Wisconsin, Texas and California. 
+Experts in machine vision automation and virtual instrumentation,
+ Soliton is a technology company with operations
+ in India and the US serving global companies such as
+ GE, IBM, Ford, Boeing, TI, and Nortel. It is the market leader 
+in machine vision products and solutions.It is 
+the main sponsor and the core member of TIFAC 
+Center Of Relevance and Excellence (CORE) in Machine 
+Vision, Chennai.Soliton was founded in 1998 by
+ Dr Ganesh Devaraj. The inspiration to start Soliton
+ apparently came when he read the book ‘Built to Last’, 
+while working as a scientist at VI Engineering, Michigan, 
+after obtaining a doctorate in Theoretical Physics from the 
+University of Michigan, Ann Arbor. Dr Devaraj 
+apparently wanted to see visionary companies 
+like HP, Sony, IBM etc. created in India and was inspired 
+to return to India to build a company that is 
+known around the world for innovation, excellence 
+and integrity. Soliton started as an Alliance Member 
+of National Instruments, USA, and quickly garnered 
+international recognition for its innovative work in 
+Virtual instrumentation, winning 23 prestigious 
+international awards in seven years. In 2004, 
+Soliton started a product division for manufacturing
+ machine vision cameras that could address the 
+need in the manufacturing industry for sophisticated
+ quality control tools. Soliton has since extended 
+its services from offering solutions for stated automation
+ needs, to offering consulting and R&amp;D services 
+for the purpose of addressing the core needs of 
+clients to build machine vision and automation products.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="5br-c9-CIc"/>
+                                                <exclude reference="7XE-qv-Lcl"/>
+                                                <exclude reference="lO4-Uq-gKk"/>
+                                                <exclude reference="ucs-BL-0ek"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="“Vision for Better World”" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH7-V8-pLB">
+                                        <rect key="frame" x="16" y="148" width="403" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="66" id="0XL-nd-wkX"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="66" id="EH4-g9-9aX"/>
+                                            <constraint firstAttribute="height" constant="66" id="Fga-ZX-5ai"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="403" id="LLP-2J-EMs"/>
+                                            <constraint firstAttribute="width" secondItem="tH7-V8-pLB" secondAttribute="height" multiplier="403:66" id="RIM-zp-9Ei"/>
+                                            <constraint firstAttribute="height" constant="66" id="RyX-xZ-OH8"/>
+                                            <constraint firstAttribute="width" constant="403" id="kwB-u5-def"/>
+                                            <constraint firstAttribute="height" constant="31" id="veB-Bi-lcJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="EH4-g9-9aX"/>
+                                                <exclude reference="RIM-zp-9Ei"/>
+                                                <exclude reference="RyX-xZ-OH8"/>
+                                                <exclude reference="veB-Bi-lcJ"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="M8o-HU-9Hu" firstAttribute="leading" secondItem="TLZ-aN-qSU" secondAttribute="leading" constant="25" id="2ZN-31-ka2"/>
+                                    <constraint firstItem="M8o-HU-9Hu" firstAttribute="top" secondItem="pjj-Cg-gEK" secondAttribute="bottom" constant="55" id="Bc8-qt-BDw"/>
+                                    <constraint firstItem="pjj-Cg-gEK" firstAttribute="leading" secondItem="TLZ-aN-qSU" secondAttribute="leading" constant="98" id="JX3-cj-xyi"/>
+                                    <constraint firstAttribute="trailing" secondItem="tH7-V8-pLB" secondAttribute="trailing" constant="26" id="Wfw-1P-4qq"/>
+                                    <constraint firstItem="Snc-KO-jSK" firstAttribute="top" secondItem="M8o-HU-9Hu" secondAttribute="bottom" constant="-3" id="ZRb-ZQ-WeM"/>
+                                    <constraint firstItem="Snc-KO-jSK" firstAttribute="leading" secondItem="TLZ-aN-qSU" secondAttribute="leading" constant="35" id="aW1-Ot-cjS"/>
+                                    <constraint firstItem="tH7-V8-pLB" firstAttribute="leading" secondItem="TLZ-aN-qSU" secondAttribute="leading" constant="16" id="bHi-TP-ZPG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Snc-KO-jSK" secondAttribute="bottom" constant="20" id="dlU-Ms-uhQ"/>
+                                    <constraint firstItem="M8o-HU-9Hu" firstAttribute="centerX" secondItem="Snc-KO-jSK" secondAttribute="centerX" constant="-26.5" id="eVF-IF-e2t"/>
+                                    <constraint firstItem="pjj-Cg-gEK" firstAttribute="top" secondItem="TLZ-aN-qSU" secondAttribute="top" constant="20" id="fl8-ji-9he"/>
+                                    <constraint firstAttribute="trailing" secondItem="M8o-HU-9Hu" secondAttribute="trailing" constant="24" id="fzT-3H-JDr"/>
+                                    <constraint firstItem="Snc-KO-jSK" firstAttribute="trailing" secondItem="tH7-V8-pLB" secondAttribute="trailing" id="hPN-M8-Tsj"/>
+                                    <constraint firstItem="M8o-HU-9Hu" firstAttribute="top" secondItem="tH7-V8-pLB" secondAttribute="bottom" constant="-6" id="nLn-T1-4O8"/>
+                                    <constraint firstItem="M8o-HU-9Hu" firstAttribute="centerX" secondItem="TLZ-aN-qSU" secondAttribute="centerX" constant="4" id="rZl-75-h4t"/>
+                                    <constraint firstAttribute="trailing" secondItem="Snc-KO-jSK" secondAttribute="trailing" constant="-19" id="w03-Ff-j5l"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Wfw-1P-4qq"/>
+                                        <exclude reference="2ZN-31-ka2"/>
+                                        <exclude reference="eVF-IF-e2t"/>
+                                        <exclude reference="fzT-3H-JDr"/>
+                                        <exclude reference="aW1-Ot-cjS"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TLZ-aN-qSU" firstAttribute="leading" secondItem="uE3-V9-OSp" secondAttribute="leadingMargin" constant="-35" id="Vk6-S2-yE8"/>
+                            <constraint firstItem="TLZ-aN-qSU" firstAttribute="top" secondItem="yIn-sa-dZP" secondAttribute="bottom" constant="5" id="gqm-iL-3Pg"/>
+                            <constraint firstItem="WQG-dm-ud0" firstAttribute="top" secondItem="TLZ-aN-qSU" secondAttribute="bottom" constant="52" id="oyg-2a-gVQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TLZ-aN-qSU" secondAttribute="trailing" constant="-30" id="pmg-HN-nfl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4bp-yy-XCa"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BX-S2-yAg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467.5" y="705"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Od8-gu-EC6">
+            <objects>
+                <viewController id="upk-hI-MLS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1wy-hK-ayh"/>
+                        <viewControllerLayoutGuide type="bottom" id="k4z-eI-xfN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MV5-LU-amC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaK-Vm-hWO">
+                                <rect key="frame" x="-13" y="53" width="407" height="1454"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Work hard, have fun, make history&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNh-oA-NLF">
+                                        <rect key="frame" x="28" y="113" width="354" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="6BU-sD-rt1"/>
+                                            <constraint firstAttribute="width" constant="354" id="lfG-RD-kTB"/>
+                                            <constraint firstAttribute="height" constant="31" id="qD1-aL-TsP"/>
+                                            <constraint firstAttribute="height" constant="66" id="zK8-xX-hpw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="qD1-aL-TsP"/>
+                                                <exclude reference="zK8-xX-hpw"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="az.png" translatesAutoresizingMaskIntoConstraints="NO" id="IZK-G1-9Bv">
+                                        <rect key="frame" x="93" y="20" width="229" height="133"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="166" id="1O8-dU-p7j"/>
+                                            <constraint firstAttribute="height" constant="133" id="DTs-p0-PGC"/>
+                                            <constraint firstAttribute="width" constant="166" id="mi2-3F-sOm"/>
+                                            <constraint firstAttribute="height" constant="159" id="qIX-3U-Ij3"/>
+                                            <constraint firstAttribute="height" constant="133" id="tJo-uF-EEG"/>
+                                            <constraint firstAttribute="width" constant="229" id="uOd-AM-goA"/>
+                                            <constraint firstAttribute="height" constant="133" id="un9-xO-JDs"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="1O8-dU-p7j"/>
+                                                <exclude reference="DTs-p0-PGC"/>
+                                                <exclude reference="mi2-3F-sOm"/>
+                                                <exclude reference="qIX-3U-Ij3"/>
+                                                <exclude reference="tJo-uF-EEG"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="45" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJu-dl-Je0">
+                                        <rect key="frame" x="20" y="854" width="407" height="580"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="353" id="6mZ-XD-5Yq"/>
+                                            <constraint firstAttribute="height" constant="603" id="B25-wc-8HE"/>
+                                            <constraint firstAttribute="height" constant="482" id="G7F-9J-I0L"/>
+                                            <constraint firstAttribute="height" constant="401" id="PBo-d8-vCU"/>
+                                            <constraint firstAttribute="height" constant="401" id="SMG-AA-rsY"/>
+                                            <constraint firstAttribute="height" constant="482" id="jRp-Nv-Clm"/>
+                                            <constraint firstAttribute="height" constant="417" id="snk-1b-Adx"/>
+                                        </constraints>
+                                        <string key="text">Type of business	:	Public
+Type of site		:	E-commerce
+Available in		:	English, French, German,
+ 				Spanish, Italian, Chinese, 
+				Japanese, Brazilian Portuguese,
+ 				Dutch
+Traded as		:	NASDAQ: AMZN
+				NASDAQ-100 Component
+				S&amp;P 5000 Component
+Founded		:	July 5, 1994; 22 years ago (as Cadabra)
+				Seattle, Washington, U.S.
+Headquarters		:	Seattle, Washington, U.S
+Area served		:	Worldwide
+Owner			:	Jeff Bezos (17.1%)
+Founder(s)		:	Jeff Bezos
+Key people		:	Jeff Bezos
+				(Chairman, President and CEO),
+				 Werner Vogels (CTO)
+Industry		:	Internet
+Products		:	Appstore, AWS, The Book Depository, 
+				comiXology, Game Studios, Video, 
+				Instant Video UK, Instant Video German, 
+				Audible, Kindle, Fire, Lab126, Studios,
+				 Twitch.tv, Woot, Echo, MyHabit.com(closed),
+				Shopbop,Askville
+Services		:	Online shopping, web hosting
+Revenue		:	Increase US$107 billion (2015)
+Operating income	:	Increase US$2.233 billion (2015)
+Net income		:	Increase US$596 million (2015)
+Total assets		:	Increase US$65.444 billion (2015)
+Total equity		:	Increase US$13.384 billion (2015)
+Employees		:	268,900 (July 2016)
+Subsidiaries		:	A9.com, Amazon Web Services,
+ 				Digital Photography Review, Goodreads, 
+				Internet Movie Database, Junglee.com
+Slogan(s)		:	Work hard, have fun, make history
+Website		:	amazon.com (original U.S. site)
+Various national sites
+Alexa rank		:	Negative increase 7 (September 2016)
+Advertising		:	Web banners, videos
+Launched		:	July 5, 1994
+Written in		:	C++ and Java</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="6mZ-XD-5Yq"/>
+                                                <exclude reference="B25-wc-8HE"/>
+                                                <exclude reference="G7F-9J-I0L"/>
+                                                <exclude reference="PBo-d8-vCU"/>
+                                                <exclude reference="SMG-AA-rsY"/>
+                                                <exclude reference="jRp-Nv-Clm"/>
+                                                <exclude reference="snk-1b-Adx"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhZ-Rz-WAc">
+                                        <rect key="frame" x="21" y="145" width="361" height="703"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="361" id="6yc-cN-73c"/>
+                                            <constraint firstAttribute="height" constant="105" id="Baj-sX-xR2"/>
+                                            <constraint firstAttribute="height" constant="635" id="Fhu-jp-ffY"/>
+                                            <constraint firstAttribute="width" constant="350" id="K4Q-yK-XEs"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="635" id="NNR-aj-Dki"/>
+                                            <constraint firstAttribute="height" constant="300" id="RoF-Yg-tSA"/>
+                                            <constraint firstAttribute="width" secondItem="UhZ-Rz-WAc" secondAttribute="height" multiplier="75:127" id="SS3-sd-6HW"/>
+                                            <constraint firstAttribute="height" constant="300" id="ggb-cR-wgv"/>
+                                            <constraint firstAttribute="height" constant="657" id="ssf-m1-ZWd"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="umm-ab-ZaF"/>
+                                        </constraints>
+                                        <string key="text">The company was founded in 1994, spurred by 
+what Amazon founder Jeff Bezos called his "regret 
+minimization framework," which described his efforts
+ to fend off any regrets for not participating sooner
+ in the Internet business boom during that time. In
+ 1994, Bezos left his employment as vice-president
+ of D. E. Shaw &amp; Co., a Wall Street firm, and moved
+ to Seattle. He began to work on a business plan for 
+what would eventually become Amazon.com.
+Jeff Bezos incorporated the company as "Cadabra" 
+on July 5, 1994. Bezos changed the name to Amazon
+ a year later after a lawyer misheard its original name
+ as "cadaver". In September 1994, Bezos purchased
+ the URL Relentless.com and briefly considered naming
+ his online store Relentless, but friends told him the name
+ sounded a bit sinister. The domain is still owned by 
+Bezos and still redirects to the retailer. The company
+ went online as Amazon.com in 1995.
+Bezos selected the name Amazon by looking through the
+ dictionary, and settled on "Amazon" because it was a
+ place that was "exotic and different" just as he planned 
+for his store to be; the Amazon river, he noted was by far 
+the "biggest" river in the world, and he planned to make
+ his store the biggest in the world. Bezos placed a premium
+ on his head start in building a brand, telling a reporter, 
+"There's nothing about our model that can't be copied over
+ time. But you know, McDonald's got copied. And it still 
+built a huge, multibillion-dollar company. A lot of it comes 
+down to the brand name. Brand names are more important
+ online than they are in the physical world."Additionally, 
+a name beginning with "A" was preferential due to the probability 
+it would occur at the top of any list that was alphabetized.
+Since June 19, 2000, Amazon's logotype has featured
+ a curved arrow leading from A to Z, representing that 
+the company carries every product from A to Z, with the
+ arrow shaped like a smile.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Baj-sX-xR2"/>
+                                                <exclude reference="Fhu-jp-ffY"/>
+                                                <exclude reference="K4Q-yK-XEs"/>
+                                                <exclude reference="NNR-aj-Dki"/>
+                                                <exclude reference="RoF-Yg-tSA"/>
+                                                <exclude reference="SS3-sd-6HW"/>
+                                                <exclude reference="ggb-cR-wgv"/>
+                                                <exclude reference="ssf-m1-ZWd"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UhZ-Rz-WAc" firstAttribute="top" secondItem="IZK-G1-9Bv" secondAttribute="bottom" constant="-8" id="4ig-Tu-qOs"/>
+                                    <constraint firstItem="IZK-G1-9Bv" firstAttribute="leading" secondItem="vaK-Vm-hWO" secondAttribute="leading" constant="86" id="B9h-ep-j0B"/>
+                                    <constraint firstItem="UhZ-Rz-WAc" firstAttribute="leading" secondItem="vaK-Vm-hWO" secondAttribute="leading" constant="21" id="IZ6-uk-X0p"/>
+                                    <constraint firstAttribute="trailing" secondItem="WNh-oA-NLF" secondAttribute="trailing" constant="25" id="K9R-s0-u4T"/>
+                                    <constraint firstAttribute="bottom" secondItem="IZK-G1-9Bv" secondAttribute="bottom" constant="1301" id="LCu-fq-ofK"/>
+                                    <constraint firstItem="UhZ-Rz-WAc" firstAttribute="leading" secondItem="pJu-dl-Je0" secondAttribute="leading" constant="1" id="Sdq-lG-H7q"/>
+                                    <constraint firstAttribute="trailing" secondItem="UhZ-Rz-WAc" secondAttribute="trailing" constant="25" id="a6L-qG-6oA"/>
+                                    <constraint firstItem="WNh-oA-NLF" firstAttribute="top" secondItem="vaK-Vm-hWO" secondAttribute="top" constant="113" id="axN-Sq-pKN"/>
+                                    <constraint firstItem="pJu-dl-Je0" firstAttribute="top" secondItem="UhZ-Rz-WAc" secondAttribute="bottom" constant="6" id="ffe-nv-sbF"/>
+                                    <constraint firstAttribute="bottom" secondItem="pJu-dl-Je0" secondAttribute="bottom" constant="20" id="gHq-tf-cxS"/>
+                                    <constraint firstItem="WNh-oA-NLF" firstAttribute="leading" secondItem="vaK-Vm-hWO" secondAttribute="leading" constant="28" id="gwK-9g-1PH"/>
+                                    <constraint firstAttribute="trailing" secondItem="pJu-dl-Je0" secondAttribute="trailing" constant="-20" id="h7B-Zc-IqX"/>
+                                    <constraint firstItem="IZK-G1-9Bv" firstAttribute="centerX" secondItem="UhZ-Rz-WAc" secondAttribute="centerX" constant="6" id="nts-Jg-YCf"/>
+                                    <constraint firstItem="IZK-G1-9Bv" firstAttribute="top" secondItem="vaK-Vm-hWO" secondAttribute="top" constant="20" id="s74-63-WNh"/>
+                                    <constraint firstItem="IZK-G1-9Bv" firstAttribute="centerX" secondItem="UhZ-Rz-WAc" secondAttribute="centerX" id="t5G-Kt-uWq"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="B9h-ep-j0B"/>
+                                        <exclude reference="t5G-Kt-uWq"/>
+                                        <exclude reference="gwK-9g-1PH"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="vaK-Vm-hWO" secondAttribute="bottom" constant="-7" id="KRD-mg-ITr"/>
+                            <constraint firstItem="vaK-Vm-hWO" firstAttribute="leading" secondItem="MV5-LU-amC" secondAttribute="leadingMargin" constant="-29" id="ika-fL-AhG"/>
+                            <constraint firstItem="vaK-Vm-hWO" firstAttribute="top" secondItem="MV5-LU-amC" secondAttribute="topMargin" constant="53" id="ta3-CJ-UWo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vaK-Vm-hWO" secondAttribute="trailing" constant="-35" id="teu-fM-41r"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="F9x-m8-65w"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vt3-GF-dKu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2013.5" y="2204"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lCa-wn-XFR">
+            <objects>
+                <viewController id="Hx7-DA-7Cr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0GO-cz-OTU"/>
+                        <viewControllerLayoutGuide type="bottom" id="IUp-91-3QX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PNU-PG-PoM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWr-4C-3oT">
+                                <rect key="frame" x="-28" y="58" width="431" height="1229"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;THINK&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMu-aE-WAW">
+                                        <rect key="frame" x="41" y="148" width="354" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="Bh4-NZ-meh"/>
+                                            <constraint firstAttribute="height" constant="66" id="Hx0-d8-wZV"/>
+                                            <constraint firstAttribute="width" constant="354" id="MSo-v1-Nnl"/>
+                                            <constraint firstAttribute="height" constant="66" id="VcP-fg-MIu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Bh4-NZ-meh"/>
+                                                <exclude reference="Hx0-d8-wZV"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IBM.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Uu-GR-0f5">
+                                        <rect key="frame" x="99" y="20" width="229" height="133"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="133" id="Dof-F7-Bhh"/>
+                                            <constraint firstAttribute="height" constant="159" id="IdY-C6-OHM"/>
+                                            <constraint firstAttribute="width" constant="166" id="LXG-sh-VN0"/>
+                                            <constraint firstAttribute="width" constant="166" id="Yts-Qd-7Qh"/>
+                                            <constraint firstAttribute="height" constant="133" id="ZNI-c2-qh0"/>
+                                            <constraint firstAttribute="height" constant="133" id="i1s-K1-8kH"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Dof-F7-Bhh"/>
+                                                <exclude reference="IdY-C6-OHM"/>
+                                                <exclude reference="LXG-sh-VN0"/>
+                                                <exclude reference="Yts-Qd-7Qh"/>
+                                                <exclude reference="i1s-K1-8kH"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9H-nI-rKG">
+                                        <rect key="frame" x="44" y="828" width="331" height="401"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="401" id="L31-ob-kFU"/>
+                                            <constraint firstAttribute="height" constant="482" id="Nf2-FX-t0I"/>
+                                            <constraint firstAttribute="width" constant="353" id="RaY-ce-5d5"/>
+                                            <constraint firstAttribute="height" constant="482" id="X5l-as-DAZ"/>
+                                            <constraint firstAttribute="height" constant="401" id="fyG-AB-eWQ"/>
+                                            <constraint firstAttribute="height" constant="417" id="uaY-MB-0R5"/>
+                                        </constraints>
+                                        <string key="text">Type			:	Public
+Traded as	:	NASDAQ: CTSH
+				NASDAQ-100 Component
+				S&amp;P 500 Component
+Industry		:	IT services, IT consulting
+Predecessor	:	Dun &amp; Bradstreet
+Founded		:	January 26, 1994
+Founder		:	Kumar Mahadeva
+				Francisco D'Souza
+Headquarters	:	Teaneck, New Jersey, United States
+Area served	:	Worldwide
+Key people	:	Francisco D'Souza (CEO)
+				Lakshmi Narayanan (Vice-Chairman)
+Services		:	IT, business consulting 
+				and outsourcing services
+Revenue		:	US$12.416 billion (2015)
+Operating income	:	US$2.142 billion (2015)
+Profit		:	US$1.623 billion (2015)
+Total assets	:	US$13.065 billion (2015)
+Total equity	:	US$9.278 billion (2015)
+Number of employees:	244,300 (2016 Q2)
+Slogan		:	Keep Challenging
+Website		:	www.cognizant.com</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="L31-ob-kFU"/>
+                                                <exclude reference="Nf2-FX-t0I"/>
+                                                <exclude reference="RaY-ce-5d5"/>
+                                                <exclude reference="X5l-as-DAZ"/>
+                                                <exclude reference="uaY-MB-0R5"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Is-ql-W9I">
+                                        <rect key="frame" x="28" y="208" width="375" height="635"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="635" id="1lW-K8-zVw"/>
+                                            <constraint firstAttribute="height" constant="300" id="57q-CO-Ye1"/>
+                                            <constraint firstAttribute="width" constant="375" id="9iV-0v-UFJ"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="635" id="9jK-jP-LSd"/>
+                                            <constraint firstAttribute="height" constant="300" id="OLv-TG-by8"/>
+                                            <constraint firstAttribute="height" constant="105" id="fYP-hA-QMi"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="gTy-gA-OQ5"/>
+                                            <constraint firstAttribute="width" constant="350" id="kL4-9K-IPc"/>
+                                            <constraint firstAttribute="width" secondItem="6Is-ql-W9I" secondAttribute="height" multiplier="75:127" id="lke-CT-1mM"/>
+                                        </constraints>
+                                        <string key="text">IBM has a large and diverse portfolio of 
+products and services. As of 2016, these 
+offerings fall into the categories of cloud computing, 
+cognitive computing, commerce, data and analytics,
+ Internet of Things, IT infrastructure, mobile, and security.
+IBM Cloud includes infrastructure as a service (IaaS), 
+software as a service (SaaS) and platform as a service 
+(PaaS) offered through public, private and hybrid
+ cloud delivery models. For instance, the IBM Bluemix 
+PaaS enables developers to quickly create complex websites 
+on a pay-as-you-go model. IBM SoftLayer is a dedicated server,
+ managed hosting and cloud computing provider, which in 
+2011 reported hosting more than 81,000 servers for more 
+than 26,000 customers. IBM also offers Cloud Data Encryption 
+Services (ICDES), using cryptographic splitting to secure
+ customer data.
+IBM also hosts the industry-wide cloud computing and 
+mobile technologies conference InterConnect each year.
+Hardware designed by IBM for these categories include 
+IBM's POWER microprocessors, which are employed inside
+ many console gaming systems, including Xbox 360,PlayStation 3, 
+and Nintendo's Wii U. IBM Secure Blue is encryption hardware that 
+can be built into microprocessors, and in 2014, the company revealed
+ it was investing $3 billion over the following five years to design a 
+neural chip that mimics the human brain, with 10 billion neurons and 
+100 trillion synapses, but that uses just 1 kilowatt of power.In 2016, the
+company launched all-flash arrays designed for small and midsized companies, which includes software for data compression, provisioning, 
+and snapshots across various systems.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="57q-CO-Ye1"/>
+                                                <exclude reference="OLv-TG-by8"/>
+                                                <exclude reference="fYP-hA-QMi"/>
+                                                <exclude reference="kL4-9K-IPc"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pMu-aE-WAW" firstAttribute="leading" secondItem="YWr-4C-3oT" secondAttribute="leading" constant="41" id="0aA-qa-JgL"/>
+                                    <constraint firstItem="pMu-aE-WAW" firstAttribute="top" secondItem="YWr-4C-3oT" secondAttribute="top" constant="148" id="5IX-be-zrJ"/>
+                                    <constraint firstItem="f9H-nI-rKG" firstAttribute="leading" secondItem="YWr-4C-3oT" secondAttribute="leading" constant="44" id="5Pk-bD-KBs"/>
+                                    <constraint firstItem="3Uu-GR-0f5" firstAttribute="top" secondItem="YWr-4C-3oT" secondAttribute="top" constant="20" id="DLT-Eq-3fv"/>
+                                    <constraint firstItem="f9H-nI-rKG" firstAttribute="firstBaseline" secondItem="6Is-ql-W9I" secondAttribute="baseline" id="L6s-0q-gGa"/>
+                                    <constraint firstItem="3Uu-GR-0f5" firstAttribute="leading" secondItem="YWr-4C-3oT" secondAttribute="leading" constant="99" id="Tuv-Tn-0DX"/>
+                                    <constraint firstItem="pMu-aE-WAW" firstAttribute="trailing" secondItem="6Is-ql-W9I" secondAttribute="trailing" constant="-8" id="Xul-KT-lOY"/>
+                                    <constraint firstAttribute="trailing" secondItem="f9H-nI-rKG" secondAttribute="trailing" constant="48" id="ZNP-ce-P7n"/>
+                                    <constraint firstItem="6Is-ql-W9I" firstAttribute="top" secondItem="3Uu-GR-0f5" secondAttribute="bottom" constant="55" id="bQx-mv-Z5u"/>
+                                    <constraint firstAttribute="trailing" secondItem="3Uu-GR-0f5" secondAttribute="trailing" constant="95" id="iNI-YJ-sUh"/>
+                                    <constraint firstAttribute="bottom" secondItem="pMu-aE-WAW" secondAttribute="bottom" constant="1015" id="lgX-8L-Lq3"/>
+                                    <constraint firstAttribute="trailing" secondItem="pMu-aE-WAW" secondAttribute="trailing" constant="28" id="vp2-SY-WPr"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YWr-4C-3oT" firstAttribute="centerX" secondItem="PNU-PG-PoM" secondAttribute="centerX" id="AfL-fR-yri"/>
+                            <constraint firstItem="YWr-4C-3oT" firstAttribute="leading" secondItem="PNU-PG-PoM" secondAttribute="leadingMargin" constant="-44" id="qBt-FO-EWm"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="YWr-4C-3oT" secondAttribute="bottom" constant="13" id="tMS-Ro-LdV"/>
+                            <constraint firstItem="YWr-4C-3oT" firstAttribute="top" secondItem="0GO-cz-OTU" secondAttribute="bottom" constant="-6" id="vET-vS-fd0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="oZo-b5-TOq"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EpT-hz-MA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1565.5" y="2104"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qg0-xI-mtB">
+            <objects>
+                <viewController id="B2Z-OH-sv1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kyo-Pw-tzr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ps5-Bl-1q9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h1o-Bs-XQ4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wr1-ia-cEo">
+                                <rect key="frame" x="-20" y="58" width="415" height="936"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="“Passion for making a difference”" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGS-V4-9KF">
+                                        <rect key="frame" x="35" y="149" width="354" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="8oT-28-PHq"/>
+                                            <constraint firstAttribute="height" constant="66" id="gQY-Mk-bwu"/>
+                                            <constraint firstAttribute="height" constant="66" id="s2E-um-geL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="8oT-28-PHq"/>
+                                                <exclude reference="s2E-um-geL"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cognizant.png" translatesAutoresizingMaskIntoConstraints="NO" id="HxS-4V-2qR">
+                                        <rect key="frame" x="98" y="20" width="229" height="133"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="166" id="4Ro-iE-jUx"/>
+                                            <constraint firstAttribute="height" constant="133" id="7mK-uX-jkj"/>
+                                            <constraint firstAttribute="height" constant="133" id="FNy-YZ-NAz"/>
+                                            <constraint firstAttribute="height" constant="133" id="Ftq-gx-3kR"/>
+                                            <constraint firstAttribute="height" constant="159" id="Tlg-Uj-dSG"/>
+                                            <constraint firstAttribute="width" constant="166" id="wqQ-7i-fhP"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="4Ro-iE-jUx"/>
+                                                <exclude reference="FNy-YZ-NAz"/>
+                                                <exclude reference="Ftq-gx-3kR"/>
+                                                <exclude reference="Tlg-Uj-dSG"/>
+                                                <exclude reference="wqQ-7i-fhP"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5z-3r-OLX">
+                                        <rect key="frame" x="20" y="223" width="375" height="307"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="BL1-ON-B8C"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="UWx-YL-QAa"/>
+                                            <constraint firstAttribute="height" constant="300" id="cch-Lq-Tvn"/>
+                                            <constraint firstAttribute="height" constant="105" id="hjw-gF-Vb9"/>
+                                            <constraint firstAttribute="width" constant="350" id="mHQ-Po-HqD"/>
+                                            <constraint firstAttribute="height" constant="307" id="xf6-10-nI5"/>
+                                        </constraints>
+                                        <string key="text">Cognizant began its journey as Dun &amp; Bradstreet 
+SatyamSoftware (DBSS),established as Dun &amp; 
+Bradstreet's in-housetechnology unit focused on
+ implementing large-scale ITprojects for Dun &amp; 
+Bradstreet businesses. In 1996, thecompany started 
+pursuing customers beyond Dun &amp;Bradstreet.
+In 1996, Dun &amp; Bradstreet spun off several of its 
+subsidiariesincluding Erisco, IMS International, 
+Nielsen Media Research,Pilot Software, Strategic 
+Technologies and DBSS, to form a
+new company called Cognizant Corporation. Three 
+months later, in 1997, DBSS renamed itself to Cognizant 
+Technology Solutions. In July 1997, Dun &amp; Bradstreet 
+bought Satyam’s 24% stake in DBSS for $3.4 million. 
+Headquarters were moved to the United States, and in 
+March 1998, Kumar Mahadeva was named CEO.Operating 
+as a division of the Cognisant Corporation, the company 
+mainly focused on Y2K-related projects and web development.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="BL1-ON-B8C"/>
+                                                <exclude reference="cch-Lq-Tvn"/>
+                                                <exclude reference="hjw-gF-Vb9"/>
+                                                <exclude reference="mHQ-Po-HqD"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESB-w8-ZTD">
+                                        <rect key="frame" x="35" y="515" width="331" height="401"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="482" id="5Lb-YC-2j4"/>
+                                            <constraint firstAttribute="width" constant="353" id="Ijd-Xl-VHw"/>
+                                            <constraint firstAttribute="height" constant="482" id="PK8-o3-VgB"/>
+                                            <constraint firstAttribute="height" constant="401" id="fj7-tD-i8H"/>
+                                            <constraint firstAttribute="height" constant="417" id="kNU-SO-puv"/>
+                                            <constraint firstAttribute="height" constant="401" id="oSq-5F-fSl"/>
+                                        </constraints>
+                                        <string key="text">Type			:	Public
+Traded as	:	NASDAQ: CTSH
+				NASDAQ-100 Component
+				S&amp;P 500 Component
+Industry		:	IT services, IT consulting
+Predecessor	:	Dun &amp; Bradstreet
+Founded		:	January 26, 1994
+Founder		:	Kumar Mahadeva
+				Francisco D'Souza
+Headquarters	:	Teaneck, New Jersey, United States
+Area served	:	Worldwide
+Key people	:	Francisco D'Souza (CEO)
+				Lakshmi Narayanan (Vice-Chairman)
+Services		:	IT, business consulting 
+				and outsourcing services
+Revenue		:	US$12.416 billion (2015)
+Operating income	:	US$2.142 billion (2015)
+Profit		:	US$1.623 billion (2015)
+Total assets	:	US$13.065 billion (2015)
+Total equity	:	US$9.278 billion (2015)
+Number of employees:	244,300 (2016 Q2)
+Slogan		:	Keep Challenging
+Website		:	www.cognizant.com</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="5Lb-YC-2j4"/>
+                                                <exclude reference="Ijd-Xl-VHw"/>
+                                                <exclude reference="PK8-o3-VgB"/>
+                                                <exclude reference="fj7-tD-i8H"/>
+                                                <exclude reference="kNU-SO-puv"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ESB-w8-ZTD" secondAttribute="trailing" constant="49" id="3AQ-TC-lGW"/>
+                                    <constraint firstItem="HxS-4V-2qR" firstAttribute="leading" secondItem="Wr1-ia-cEo" secondAttribute="leading" constant="98" id="6z6-VJ-jWe"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="leading" secondItem="Wr1-ia-cEo" secondAttribute="leading" constant="20" id="9Wc-lW-MXb"/>
+                                    <constraint firstAttribute="trailing" secondItem="zGS-V4-9KF" secondAttribute="trailing" constant="26" id="AHS-lO-pvD"/>
+                                    <constraint firstItem="HxS-4V-2qR" firstAttribute="centerX" secondItem="zGS-V4-9KF" secondAttribute="centerX" id="EtC-gT-01q"/>
+                                    <constraint firstAttribute="bottom" secondItem="ESB-w8-ZTD" secondAttribute="bottom" constant="-44" id="FNf-kD-K98"/>
+                                    <constraint firstItem="HxS-4V-2qR" firstAttribute="top" secondItem="Wr1-ia-cEo" secondAttribute="top" constant="20" id="HmK-rE-Ime"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="top" secondItem="HxS-4V-2qR" secondAttribute="bottom" constant="70" id="KQw-dR-GzF"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="baseline" secondItem="ESB-w8-ZTD" secondAttribute="firstBaseline" id="KpV-YW-bhK"/>
+                                    <constraint firstItem="zGS-V4-9KF" firstAttribute="leading" secondItem="Wr1-ia-cEo" secondAttribute="leading" constant="35" id="L9I-Xs-ihi"/>
+                                    <constraint firstItem="HxS-4V-2qR" firstAttribute="leading" secondItem="Wr1-ia-cEo" secondAttribute="leading" constant="98" id="QLm-AZ-uXO"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="top" secondItem="zGS-V4-9KF" secondAttribute="bottom" constant="8" symbolic="YES" id="Qgt-3g-6LC"/>
+                                    <constraint firstItem="HxS-4V-2qR" firstAttribute="centerX" secondItem="zGS-V4-9KF" secondAttribute="centerX" id="Vyu-aD-cSU"/>
+                                    <constraint firstItem="zGS-V4-9KF" firstAttribute="leading" secondItem="ESB-w8-ZTD" secondAttribute="leading" id="YYe-Lw-vdf"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="centerX" secondItem="Wr1-ia-cEo" secondAttribute="centerX" id="ayE-hd-Ja9"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="centerX" secondItem="Wr1-ia-cEo" secondAttribute="centerX" id="d8h-uC-Hq7"/>
+                                    <constraint firstAttribute="trailing" secondItem="D5z-3r-OLX" secondAttribute="trailing" constant="20" id="fFR-kc-x1B"/>
+                                    <constraint firstAttribute="trailing" secondItem="D5z-3r-OLX" secondAttribute="trailing" constant="20" id="lh4-8a-EpU"/>
+                                    <constraint firstAttribute="trailing" secondItem="zGS-V4-9KF" secondAttribute="trailing" constant="26" id="t9h-RP-7jd"/>
+                                    <constraint firstItem="D5z-3r-OLX" firstAttribute="leading" secondItem="Wr1-ia-cEo" secondAttribute="leading" constant="20" id="yZQ-2D-949"/>
+                                    <constraint firstItem="zGS-V4-9KF" firstAttribute="leading" secondItem="Wr1-ia-cEo" secondAttribute="leading" constant="35" id="z9m-hD-7g4"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QLm-AZ-uXO"/>
+                                        <exclude reference="Vyu-aD-cSU"/>
+                                        <exclude reference="L9I-Xs-ihi"/>
+                                        <exclude reference="t9h-RP-7jd"/>
+                                        <exclude reference="9Wc-lW-MXb"/>
+                                        <exclude reference="ayE-hd-Ja9"/>
+                                        <exclude reference="fFR-kc-x1B"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wr1-ia-cEo" firstAttribute="centerX" secondItem="h1o-Bs-XQ4" secondAttribute="centerX" id="2DW-Bg-2TB"/>
+                            <constraint firstItem="Wr1-ia-cEo" firstAttribute="leading" secondItem="h1o-Bs-XQ4" secondAttribute="leadingMargin" constant="-36" id="3WY-H7-D3C"/>
+                            <constraint firstItem="Ps5-Bl-1q9" firstAttribute="top" secondItem="Wr1-ia-cEo" secondAttribute="bottom" constant="6" id="5Vu-Wq-pI3"/>
+                            <constraint firstItem="Wr1-ia-cEo" firstAttribute="leading" secondItem="h1o-Bs-XQ4" secondAttribute="leadingMargin" constant="-36" id="8IE-ys-h5u"/>
+                            <constraint firstItem="Wr1-ia-cEo" firstAttribute="top" secondItem="h1o-Bs-XQ4" secondAttribute="topMargin" constant="58" id="UF1-3m-gIp"/>
+                            <constraint firstItem="Wr1-ia-cEo" firstAttribute="centerX" secondItem="h1o-Bs-XQ4" secondAttribute="centerX" id="t6U-i7-gcR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3WY-H7-D3C"/>
+                                <exclude reference="t6U-i7-gcR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vcs-hq-OC5"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YsG-rG-a1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1171.5" y="1954"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D4u-Lt-JPD">
+            <objects>
+                <viewController id="8pb-wr-357" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BAE-TN-2OF"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Av-ww-VX1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4tA-yg-YwD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="doB-yf-qI8">
+                                <rect key="frame" x="-9" y="0.0" width="407" height="1069"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Infosys.png" translatesAutoresizingMaskIntoConstraints="NO" id="zKB-mO-ost">
+                                        <rect key="frame" x="121" y="81" width="166" height="133"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="159" id="Dhf-Vb-Ya2"/>
+                                            <constraint firstAttribute="width" constant="166" id="GG4-3C-MxN"/>
+                                            <constraint firstAttribute="width" constant="166" id="SMX-54-ycV"/>
+                                            <constraint firstAttribute="height" constant="133" id="ZgE-dl-uGK"/>
+                                            <constraint firstAttribute="height" constant="133" id="j8a-jc-ub1"/>
+                                            <constraint firstAttribute="height" constant="133" id="tmw-pF-aWV"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Dhf-Vb-Ya2"/>
+                                                <exclude reference="GG4-3C-MxN"/>
+                                                <exclude reference="ZgE-dl-uGK"/>
+                                                <exclude reference="tmw-pF-aWV"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Elf-Pb-u6B">
+                                        <rect key="frame" x="24" y="241" width="350" height="364"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="N31-m2-C7k"/>
+                                            <constraint firstAttribute="height" constant="300" id="fyU-PI-VW1"/>
+                                            <constraint firstAttribute="height" constant="300" id="j06-Sw-leM"/>
+                                            <constraint firstAttribute="height" constant="105" id="rLY-4o-UhP"/>
+                                            <constraint firstAttribute="width" constant="350" id="y2U-gw-oNc"/>
+                                        </constraints>
+                                        <string key="text">Infosys was co-founded in 1981 by 7 Engineers N. R. Narayana Murthy, Nandan Nilekani, N. S. Raghavan, S. Gopalakrishnan, S. D. Shibulal, K. Dinesh and Ashok Arora after they resigned from Patni Computer Systems.The company was incorporated as "Infosys Consultants Pvt Ltd." with a capital of ₹10,000 or US$250 (equivalent to about $651 in 2015) in Model Colony, Pune as the registered office. It signed its first client, Data Basics Corporation, in New York City. In 1983, the company's corporate headquarters was relocated from Pune to Bangalore.
+Change in name: The Company changed its name to "Infosys Technologies Private Limited" in April 1992 and to "Infosys Technologies Limited" when it became a public limited company in June 1992. It was later renamed to "Infosys Limited" in June 2011.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.10980392156862745" green="0.10980392156862745" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="fyU-PI-VW1"/>
+                                                <exclude reference="j06-Sw-leM"/>
+                                                <exclude reference="rLY-4o-UhP"/>
+                                                <exclude reference="y2U-gw-oNc"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Powered By Intellect Driven By Values&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6G-fS-6ls">
+                                        <rect key="frame" x="23" y="210" width="354" height="66"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="100-hI-cdF"/>
+                                            <constraint firstAttribute="height" constant="66" id="FXC-g4-8Cd"/>
+                                            <constraint firstAttribute="height" constant="66" id="wsy-h3-3Dk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="100-hI-cdF"/>
+                                                <exclude reference="FXC-g4-8Cd"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTw-ls-8Kd">
+                                        <rect key="frame" x="14" y="568" width="353" height="482"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="482" id="0h3-hl-xGe"/>
+                                            <constraint firstAttribute="height" constant="417" id="Mod-ge-Djk"/>
+                                            <constraint firstAttribute="width" constant="353" id="eQV-ke-xYa"/>
+                                            <constraint firstAttribute="height" constant="482" id="oXn-pA-4aF"/>
+                                        </constraints>
+                                        <string key="text">Type                             :   Public
+Traded as                     :   BSE: 500209
+                                         NSE: INFY
+                                         NYSE: INFY
+                                         BSE SENSEX Constituent
+                                         CNX Nifty Constituent
+Industry                        :    IT services, IT consulting
+Founded                       :   2 July 1981
+Founder                        :   N. R. Narayana Murthy
+		                          Nandan Nilekani
+		                          N. S. Raghavan
+		                          S. Gopalakrishnan
+		                          S. D. Shibulal
+		                          K. Dinesh
+		                         Ashok Arora
+Headquarters               :    Electronic City, Bangalore, 
+                                          Karnataka, India
+Area served                  :    Worldwide
+Key people                   :     Vishal Sikka (CEO &amp; MD
+	    			    :    Sudha Murthy (Chairperson)
+Services			    :     IT, business consulting and outsourcing services
+Revenue 			    :     US$9.75 billion (2016)[1]
+Operating income 	    :     US$2.375 billion (2016)[1]
+Profit			    :     US$2.052 billion (2016)[1]
+Total assets		    :     US$11.378 billion (2016)[1]
+Total equity		    :     US$9.324 billion (2016)[1]
+Number of employees   :    197,050 (August 2016)[2]
+Divisions			     :    Infosys BPO Limited
+				          Lodestone Management 
+					  Consultants
+Website			     :    www.infosys.com
+</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Mod-ge-Djk"/>
+                                                <exclude reference="eQV-ke-xYa"/>
+                                                <exclude reference="oXn-pA-4aF"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="centerX" secondItem="zKB-mO-ost" secondAttribute="centerX" id="243-EX-dLq"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="centerX" secondItem="doB-yf-qI8" secondAttribute="centerX" id="2da-Zt-FYt"/>
+                                    <constraint firstItem="Elf-Pb-u6B" firstAttribute="centerX" secondItem="JTw-ls-8Kd" secondAttribute="centerX" id="2zp-3P-YNq"/>
+                                    <constraint firstItem="JTw-ls-8Kd" firstAttribute="top" secondItem="doB-yf-qI8" secondAttribute="top" constant="568" id="3Oc-vu-EEk"/>
+                                    <constraint firstAttribute="trailing" secondItem="zKB-mO-ost" secondAttribute="trailing" constant="120" id="3qc-q5-vYR"/>
+                                    <constraint firstItem="JTw-ls-8Kd" firstAttribute="top" secondItem="Elf-Pb-u6B" secondAttribute="bottom" constant="-37" id="5R5-Zn-s0M"/>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="leading" secondItem="Elf-Pb-u6B" secondAttribute="leading" id="6G6-03-oVJ"/>
+                                    <constraint firstItem="JTw-ls-8Kd" firstAttribute="top" secondItem="Elf-Pb-u6B" secondAttribute="bottom" constant="1" id="6vd-Rr-Fnk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Elf-Pb-u6B" secondAttribute="trailing" constant="33" id="9yH-WD-Dkd"/>
+                                    <constraint firstAttribute="trailing" secondItem="JTw-ls-8Kd" secondAttribute="trailing" constant="31" id="AQ8-cX-W3S"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="centerX" secondItem="doB-yf-qI8" secondAttribute="centerX" id="Agj-Hn-3ar"/>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="leading" secondItem="Elf-Pb-u6B" secondAttribute="leading" id="BWv-aI-NqM"/>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="leading" secondItem="Elf-Pb-u6B" secondAttribute="leading" constant="-5" id="Eb2-uU-Efm"/>
+                                    <constraint firstAttribute="bottom" secondItem="JTw-ls-8Kd" secondAttribute="bottom" constant="19" id="Fpa-NE-lZh"/>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="baseline" secondItem="Elf-Pb-u6B" secondAttribute="firstBaseline" constant="17" id="IT4-nR-MgU"/>
+                                    <constraint firstAttribute="trailing" secondItem="Elf-Pb-u6B" secondAttribute="trailing" constant="29" id="Ihx-zD-Ovj"/>
+                                    <constraint firstAttribute="trailing" secondItem="s6G-fS-6ls" secondAttribute="trailing" constant="28" id="J89-Fl-lch"/>
+                                    <constraint firstItem="Elf-Pb-u6B" firstAttribute="trailing" secondItem="JTw-ls-8Kd" secondAttribute="trailing" id="KTs-k6-fpj"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="top" secondItem="doB-yf-qI8" secondAttribute="top" constant="81" id="ULL-Qp-xmZ"/>
+                                    <constraint firstItem="Elf-Pb-u6B" firstAttribute="top" secondItem="zKB-mO-ost" secondAttribute="bottom" constant="27" id="Ufz-y1-kF1"/>
+                                    <constraint firstItem="JTw-ls-8Kd" firstAttribute="leading" secondItem="doB-yf-qI8" secondAttribute="leading" constant="14" id="YgD-Yv-dd4"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="centerX" secondItem="doB-yf-qI8" secondAttribute="centerX" id="cvf-x2-vDx"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="centerX" secondItem="s6G-fS-6ls" secondAttribute="centerX" id="etZ-uM-9pS"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="top" secondItem="doB-yf-qI8" secondAttribute="top" constant="81" id="fY4-qN-EJx"/>
+                                    <constraint firstItem="JTw-ls-8Kd" firstAttribute="centerX" secondItem="s6G-fS-6ls" secondAttribute="centerX" constant="-9.5" id="itU-fp-30N"/>
+                                    <constraint firstItem="Elf-Pb-u6B" firstAttribute="leading" secondItem="doB-yf-qI8" secondAttribute="leading" constant="24" id="kZg-Fd-yhg"/>
+                                    <constraint firstItem="Elf-Pb-u6B" firstAttribute="centerX" secondItem="s6G-fS-6ls" secondAttribute="centerX" constant="-1" id="tba-KC-JXq"/>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="leading" secondItem="doB-yf-qI8" secondAttribute="leading" constant="20" id="vDy-YI-JZi"/>
+                                    <constraint firstItem="s6G-fS-6ls" firstAttribute="leading" secondItem="doB-yf-qI8" secondAttribute="leading" constant="20" id="vP0-uB-Scz"/>
+                                    <constraint firstItem="JTw-ls-8Kd" firstAttribute="centerX" secondItem="Elf-Pb-u6B" secondAttribute="centerX" id="wEu-oe-qYI"/>
+                                    <constraint firstItem="Elf-Pb-u6B" firstAttribute="top" secondItem="zKB-mO-ost" secondAttribute="bottom" constant="27" id="x63-Uh-2aq"/>
+                                    <constraint firstItem="zKB-mO-ost" firstAttribute="centerX" secondItem="s6G-fS-6ls" secondAttribute="centerX" id="xhE-7Z-MNC"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2da-Zt-FYt"/>
+                                        <exclude reference="cvf-x2-vDx"/>
+                                        <exclude reference="etZ-uM-9pS"/>
+                                        <exclude reference="fY4-qN-EJx"/>
+                                        <exclude reference="xhE-7Z-MNC"/>
+                                        <exclude reference="243-EX-dLq"/>
+                                        <exclude reference="6G6-03-oVJ"/>
+                                        <exclude reference="BWv-aI-NqM"/>
+                                        <exclude reference="Eb2-uU-Efm"/>
+                                        <exclude reference="J89-Fl-lch"/>
+                                        <exclude reference="vDy-YI-JZi"/>
+                                        <exclude reference="vP0-uB-Scz"/>
+                                        <exclude reference="2zp-3P-YNq"/>
+                                        <exclude reference="Ihx-zD-Ovj"/>
+                                        <exclude reference="KTs-k6-fpj"/>
+                                        <exclude reference="x63-Uh-2aq"/>
+                                        <exclude reference="6vd-Rr-Fnk"/>
+                                        <exclude reference="AQ8-cX-W3S"/>
+                                        <exclude reference="wEu-oe-qYI"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Av-ww-VX1" firstAttribute="top" secondItem="doB-yf-qI8" secondAttribute="bottom" constant="31" id="RMI-q4-EVt"/>
+                            <constraint firstItem="doB-yf-qI8" firstAttribute="leading" secondItem="4tA-yg-YwD" secondAttribute="leadingMargin" constant="-25" id="TRM-gG-7j2"/>
+                            <constraint firstItem="doB-yf-qI8" firstAttribute="top" secondItem="4tA-yg-YwD" secondAttribute="topMargin" id="X14-74-GIp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="doB-yf-qI8" secondAttribute="trailing" constant="-39" id="cgU-gp-t8X"/>
+                            <constraint firstItem="doB-yf-qI8" firstAttribute="leading" secondItem="4tA-yg-YwD" secondAttribute="leadingMargin" constant="-21" id="lgf-dG-ygV"/>
+                            <constraint firstItem="doB-yf-qI8" firstAttribute="leading" secondItem="4tA-yg-YwD" secondAttribute="leadingMargin" constant="-25" id="udM-Sa-8m9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lgf-dG-ygV"/>
+                                <exclude reference="udM-Sa-8m9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="ILk-FB-k4k"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufj-pV-IGo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="780.5" y="2004"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vDA-Gg-xqK">
+            <objects>
+                <viewController id="agr-oL-QU2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dgl-x0-1sc"/>
+                        <viewControllerLayoutGuide type="bottom" id="hby-Dg-Ddk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2nR-Vt-ZKO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fe5-lh-Mhp">
+                                <rect key="frame" x="-20" y="0.0" width="415" height="1280"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Applying Thought&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xV-7q-Ydf">
+                                        <rect key="frame" x="20" y="249" width="375" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="ean-ha-2qk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wipro.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Hk-Fe-Pav">
+                                        <rect key="frame" x="110" y="87" width="166" height="159"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="166" id="1D9-rg-UIq"/>
+                                            <constraint firstAttribute="width" constant="166" id="7J6-8P-Pwn"/>
+                                            <constraint firstAttribute="height" constant="159" id="iOR-BQ-tum"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="1D9-rg-UIq"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWK-3a-QCC">
+                                        <rect key="frame" x="25" y="293" width="364" height="693"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="MSJ-b9-SCV"/>
+                                            <constraint firstAttribute="width" constant="364" id="Ntk-R8-8Or"/>
+                                            <constraint firstAttribute="height" constant="693" id="Vsa-Rj-aBg"/>
+                                        </constraints>
+                                        <string key="text">Wipro Limited (Western India Palm Refined Oils Limited 
+or more recently, Western India Products Limited) is an Indian 
+Information Technology Services corporation headquartered in 
+Bangalore, India.
+In 2013, Wipro demerged its non-IT businesses into a separate 
+companies to bring in more focus on independent businesses.
+The company was incorporated on 29 December 1945, in Mumbai 
+by Mohamed Premji as 'Western India Palm Refined Oil Limited’,
+later abbreviated to 'Wipro'. It was initially set up as a 
+manufacturer of vegetable and refined oils 
+in Mumbai, Maharashtra, India under the trade names of Kisan, 
+Sunflower and Camel. The company logo still contains a
+ sunflower to reflect products of the original business.
+In 1966, after Mohamed Premji’s death, his son Azim Premji 
+returned home fromStanford University and took over 
+Wipro as its chairman at the age of 21.During the 1970s and 
+1980s, the company shifted its focus to new business 
+opportunities in the IT and computing industry, which was 
+at a nascent stage in India at the time. On 7 June 1977, the 
+name of the company changed from Western India Vegetable
+ Products Limited, to Wipro Products Limited.
+The year 1980 marked the arrival of Wipro in the IT domain. In 1982, 
+the name was changed from Wipro Products Limited to Wipro 
+Limited.Meanwhile, Wipro continued to expand in the consumer
+products domain with the launch of "Ralak" a tulsi-based 
+family soap and "Wipro Jasmine", a toilet soap.
+In 1988, Wipro diversified its product line into heavy-duty 
+industrial cylinders and mobile hydraulic cylinders.A joint venture 
+company with the United States' General Electric in the name of 
+Wipro GE Medical Systems Pvt. Ltd. was set up in 1989 for the
+ manufacture, sales, and service of diagnostic and imaging 
+products.Later, in 1991, tipping systems and Eaton hydraulic 
+products were launched. The Wipro Fluid Power division, in 
+1992, developed expertise to offer standard hydraulic cylinders 
+for construction equipment and truck tipping systems. The market 
+saw the launch of the "Santoor" talcum powder and "Wipro Baby Soft" 
+range of baby toiletries in 1990.</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                        <color key="textColor" red="0.20784313725490197" green="0.20784313725490197" blue="0.20784313725490197" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlR-Up-c5C">
+                                        <rect key="frame" x="32" y="971" width="375" height="318"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="318" id="bKb-yQ-din"/>
+                                        </constraints>
+                                        <string key="text">Type	               	:	Public
+Traded as 	:	BSE: 507685
+				NSE : WIPRO
+Founded  	:  	29 December 1945
+				(Mumbai, Maharashtra)
+Founder  		: 	 Mohamed Hasham Premji
+Headquarters	:  	Bangalore, Karnataka, India
+Area served 	:   	Worldwide
+Key people  	:   	Azim Premji (Chairman)
+				Abidali Neemuchwala (CEO)
+Services		:	Digital Strategy, Business 
+				Consulting and IT Services
+Revenue		:	US$7.735 billion (2016)
+Operating income:	US$1.463 billion (2016)
+Profit		:	US$1.348 billion (2016)
+Total assets	:	US$10.94 billion (2016)
+Total equity	:	US$7.070 billion (2016)
+Owner		:	Azim Premji (73%)
+Number of employees:	173,863 (June 2016)
+Website		:	www.wipro.com</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.20784313725490197" green="0.20784313725490197" blue="0.20784313725490197" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="centerX" secondItem="Fe5-lh-Mhp" secondAttribute="centerX" id="0go-ZM-jih"/>
+                                    <constraint firstAttribute="bottom" secondItem="qlR-Up-c5C" secondAttribute="bottom" constant="-9" id="0tb-LI-cTR"/>
+                                    <constraint firstItem="qlR-Up-c5C" firstAttribute="top" secondItem="MWK-3a-QCC" secondAttribute="bottom" constant="-15" id="D7U-3B-560"/>
+                                    <constraint firstItem="qlR-Up-c5C" firstAttribute="centerX" secondItem="MWK-3a-QCC" secondAttribute="centerX" constant="12.5" id="LfY-m1-2BG"/>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="leading" secondItem="Fe5-lh-Mhp" secondAttribute="leading" constant="20" id="N5x-sc-y9h"/>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="centerX" secondItem="3Hk-Fe-Pav" secondAttribute="centerX" id="Nea-9l-33C"/>
+                                    <constraint firstAttribute="trailing" secondItem="4xV-7q-Ydf" secondAttribute="trailing" constant="20" id="PHj-JI-Eid"/>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="top" secondItem="3Hk-Fe-Pav" secondAttribute="bottom" constant="14" id="UNy-Td-qwG"/>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="top" secondItem="3Hk-Fe-Pav" secondAttribute="bottom" constant="8" symbolic="YES" id="XtE-Tk-ZYz"/>
+                                    <constraint firstItem="3Hk-Fe-Pav" firstAttribute="leading" secondItem="Fe5-lh-Mhp" secondAttribute="leading" constant="110" id="ZSx-BI-TPe"/>
+                                    <constraint firstItem="3Hk-Fe-Pav" firstAttribute="top" secondItem="Fe5-lh-Mhp" secondAttribute="top" constant="87" id="aK6-XY-QeK"/>
+                                    <constraint firstItem="3Hk-Fe-Pav" firstAttribute="top" secondItem="Fe5-lh-Mhp" secondAttribute="top" constant="87" id="gKb-Lf-MB6"/>
+                                    <constraint firstItem="qlR-Up-c5C" firstAttribute="top" secondItem="Fe5-lh-Mhp" secondAttribute="top" constant="971" id="jxG-k1-MNz"/>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="top" secondItem="3Hk-Fe-Pav" secondAttribute="bottom" constant="3" id="kks-Ju-xqN"/>
+                                    <constraint firstItem="qlR-Up-c5C" firstAttribute="trailing" secondItem="4xV-7q-Ydf" secondAttribute="trailing" constant="12" id="mBh-mV-wll"/>
+                                    <constraint firstItem="qlR-Up-c5C" firstAttribute="leading" secondItem="4xV-7q-Ydf" secondAttribute="leading" constant="12" id="w61-Bp-3Zd"/>
+                                    <constraint firstItem="4xV-7q-Ydf" firstAttribute="centerX" secondItem="Fe5-lh-Mhp" secondAttribute="centerX" id="yAi-Pq-d5Q"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="aK6-XY-QeK"/>
+                                        <exclude reference="Nea-9l-33C"/>
+                                        <exclude reference="UNy-Td-qwG"/>
+                                        <exclude reference="XtE-Tk-ZYz"/>
+                                        <exclude reference="yAi-Pq-d5Q"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fe5-lh-Mhp" firstAttribute="centerX" secondItem="2nR-Vt-ZKO" secondAttribute="centerX" id="85u-02-rWY"/>
+                            <constraint firstItem="Fe5-lh-Mhp" firstAttribute="top" secondItem="Dgl-x0-1sc" secondAttribute="bottom" id="B8K-xB-7i9"/>
+                            <constraint firstItem="Fe5-lh-Mhp" firstAttribute="leading" secondItem="2nR-Vt-ZKO" secondAttribute="leadingMargin" constant="-28" id="BV0-Rg-tyg"/>
+                            <constraint firstItem="Fe5-lh-Mhp" firstAttribute="top" secondItem="Dgl-x0-1sc" secondAttribute="bottom" constant="-64" id="CTF-o8-Jha"/>
+                            <constraint firstItem="Fe5-lh-Mhp" firstAttribute="leading" secondItem="2nR-Vt-ZKO" secondAttribute="leadingMargin" constant="-36" id="GtH-Di-S3s"/>
+                            <constraint firstItem="3Hk-Fe-Pav" firstAttribute="top" secondItem="Dgl-x0-1sc" secondAttribute="bottom" constant="23" id="Hv3-Xx-yRO"/>
+                            <constraint firstItem="Fe5-lh-Mhp" firstAttribute="centerX" secondItem="2nR-Vt-ZKO" secondAttribute="centerX" id="W6i-mE-MH5"/>
+                            <constraint firstItem="hby-Dg-Ddk" firstAttribute="top" secondItem="Fe5-lh-Mhp" secondAttribute="bottom" constant="20" id="c14-Sq-Ozv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B8K-xB-7i9"/>
+                                <exclude reference="BV0-Rg-tyg"/>
+                                <exclude reference="W6i-mE-MH5"/>
+                                <exclude reference="Hv3-Xx-yRO"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="iRx-Lv-C5g"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H27-NW-2xj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="389.5" y="2104"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="chx-bt-1uZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fl1-yC-2py" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="900"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YFh-4k-CS3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yhz-xc-X3U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJR-G7-wur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="411"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Amazon.png" width="200" height="200"/>
+        <image name="Cognizant.png" width="738" height="228"/>
+        <image name="IBM.png" width="1000" height="400"/>
+        <image name="Infosys.png" width="400" height="160"/>
+        <image name="Soliton.png" width="479" height="179"/>
+        <image name="Wipro.png" width="200" height="200"/>
+        <image name="az.png" width="640" height="227"/>
+        <image name="zoho.png" width="526" height="197"/>
+    </resources>
+</document>
